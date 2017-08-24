@@ -1,0 +1,30 @@
+.text-danger2{
+	color: red;
+}
+
+.logo{
+	border-radius: 50%;
+}
+
+.intro{
+	margin-top: 5%;
+}
+
+.border-red{
+	padding: 2px;
+	border:1px solid red;
+	border-radius: 3px;
+}
+
+/*Estilo personalizado  de logo para telefono*/
+@media screen and (max-width:500px){
+	.col-xs-12{
+		text-align: center;
+	}
+	.logo{
+		display: inline-block;
+	}	
+	.menu{
+		width: 100%;
+	}
+}
